@@ -23,8 +23,8 @@ const courseContentData = {
                 <h2 class="title">Full Stack Developer</h2>
                 <p class="subtitle">Step by step guide to becoming a modern full stack developer in 2024</p>
             </div>`,
-    2: `
-                    <div class="section-content" id="introHTMLContent">
+    2: `<div class="lesson__content">
+            <div class="section-content" id="introHTMLContent">
                 <p>HTML cung cấp cấu trúc cơ bản cho một trang web bằng cách sử dụng các thẻ như &lt;div&gt;, &lt;span&gt;, &lt;h1&gt;, và nhiều thẻ khác.</p>
             </div>
             <div class="section" id="vsCodeSetup">
@@ -59,9 +59,9 @@ const courseContentData = {
                 </pre>
              <h3>Cấu trúc chung của html gồm có thẻ <!DOCTYPE html> dùng để xác định rằng code bạn đang dùng là html</h3>
 
-<p>Cặp thẻ đóng mở <html> </html> chứa toàn bộ các dòng lệnh html bên trong (sau này còn là code của Javascript và CSS khi chèn vào)
-Tiếp đến là 2 cặp thẻ <head></head> chứa thông tin của webpage và đặc trưng bởi thẻ <title></title>, mà mặc định sẽ không được hiển thị trên web
-Thẻ <body></body> chứa toàn bộ nội dung html sẽ hiển thị lên trên trang web của chúng ta.</p>
+            <p>Cặp thẻ đóng mở <html> </html> chứa toàn bộ các dòng lệnh html bên trong (sau này còn là code của Javascript và CSS khi chèn vào)
+            Tiếp đến là 2 cặp thẻ <head></head> chứa thông tin của webpage và đặc trưng bởi thẻ <title></title>, mà mặc định sẽ không được hiển thị trên web
+            Thẻ <body></body> chứa toàn bộ nội dung html sẽ hiển thị lên trên trang web của chúng ta.</p>
             </div>
            
             <div class="section" id="conclusion">
@@ -83,9 +83,16 @@ Thẻ <body></body> chứa toàn bộ nội dung html sẽ hiển thị lên tr�
                 <p>Các nhóm học tập trực tuyến như Stack Overflow và Reddit là những nơi tốt để đặt câu hỏi và trao đổi kiến thức với cộng đồng.</p>
             </div>
         </div>
+        </div>
         `,
-    3: "Will be open on 08/28/2024, there will be a private class for you 24/24",
-    4: "Will be open on 08/28/2024, there will be a private class for you 24/24",
+    3: `<div class="lesson__content"> 
+          Will be open on 08/28/2024, there will be a private class for you 24/24
+        </div>
+        `,
+    4: `<div class="lesson__content"> 
+          Will be open on 08/28/2024, there will be a private class for you 24/24
+        </div>
+        `,
     5: `<div class="course-content">
                 <h1>Checkpoint</h1>
                 <p>Now that you have learnt HTML and CSS, you should be able to build static webpages. I recommend you to build as many test projects at each yellow step of the roadmap as possible to solidify what you learn.</p>
@@ -114,30 +121,72 @@ Thẻ <body></body> chứa toàn bộ nội dung html sẽ hiển thị lên tr�
                 </form>
                 <div id="result" class="result" style="display:none;"></div>
             </div>`,
-    6: "New homework will be updated soon.",
-    7: "Will be open on 08/28/2024, there will be a private class for you 24/24",
-    8: "Will be open on 08/28/2024, there will be a private class for you 24/24",
-    9: "Will be open on 08/28/2024, there will be a private class for you 24/24",
+    6: `<div class="lesson__content"> 
+          Will be open on 08/28/2024, there will be a private class for you 24/24
+        </div>
+        `,
+    7: `<div class="lesson__content"> 
+          Will be open on 08/28/2024, there will be a private class for you 24/24
+        </div>
+        `,
+    8: `<div class="lesson__content"> 
+          Will be open on 08/28/2024, there will be a private class for you 24/24
+        </div>
+        `,
+    9: `<div class="lesson__content"> 
+          Will be open on 08/28/2024, there will be a private class for you 24/24
+        </div>
+        `,
   },
   2: {
-    1: "This is the content for Course 2, Lesson 1.",
-    2: "This is the content for Course 2, Lesson 2.",
+    1: `<div class="lesson__content"> 
+          This is the content for Course 2, Lesson 1.
+        </div>
+        `,
+    2: `<div class="lesson__content"> 
+          This is the content for Course 2, Lesson 2.
+        </div>
+        `,
   },
   3: {
-    1: "This is the content for Course 3, Lesson 1.",
-    2: "This is the content for Course 3, Lesson 2.",
+    1: `<div class="lesson__content"> 
+          This is the content for Course 3, Lesson 1.
+        </div>
+        `,
+    2: `<div class="lesson__content"> 
+          This is the content for Course 3, Lesson 2.
+        </div>
+        `,
   },
   4: {
-    1: "This is the content for Course 4, Lesson 1.",
-    2: "This is the content for Course 4, Lesson 2.",
+    1: `<div class="lesson__content"> 
+          This is the content for Course 4, Lesson 1.
+        </div>
+        `,
+    2: `<div class="lesson__content"> 
+          This is the content for Course 4, Lesson 2.
+        </div>
+        `,
   },
   5: {
-    1: "This is the content for Course 5, Lesson 1.",
-    2: "This is the content for Course 5, Lesson 2.",
+    1: `<div class="lesson__content"> 
+          This is the content for Course 5, Lesson 1.
+        </div>
+        `,
+    2: `<div class="lesson__content"> 
+          This is the content for Course 5, Lesson 2.
+        </div>
+        `,
   },
   6: {
-    1: "This is the content for Course 6, Lesson 1.",
-    2: "This is the content for Course 6, Lesson 2.",
+    1: `<div class="lesson__content"> 
+          This is the content for Course 6, Lesson 1.
+        </div>
+        `,
+    2: `<div class="lesson__content"> 
+          This is the content for Course 6, Lesson 2.
+        </div>
+        `,
   },
   7: {
     1: `
@@ -177,7 +226,7 @@ Thẻ <body></body> chứa toàn bộ nội dung html sẽ hiển thị lên tr�
         function showContactPage() {
             window.location.href = 'contact.html'; // Replace with your contact page link
         }
-    </script>
+    </script:>
 
     `,
     2: `
@@ -227,7 +276,7 @@ Thẻ <body></body> chứa toàn bộ nội dung html sẽ hiển thị lên tr�
   },
 };
 
-const lockedCourses = [1,2,3,4,5,6,7,8];
+const lockedCourses = []; 1,2,3,4,5,6,7,8
 
 function showCourseContent(courseNumber, lessonNumber) {
   // Kiểm tra nếu khóa học bị khóa
@@ -238,11 +287,13 @@ function showCourseContent(courseNumber, lessonNumber) {
 
   const content =
     courseContentData[courseNumber]?.[lessonNumber] ||
-    "Will be update soon.";
+    `<div class="lesson__content"> 
+      Will be update soon.
+    </div>`;
 
   document.getElementById(
     "courseContent"
-  ).innerHTML = `<h1>Course ${courseNumber}: Lesson ${lessonNumber}</h1>${content}`;
+  ).innerHTML = `<div class="bdlayout"><h1 class="h1Title">Course ${courseNumber}: Lesson ${lessonNumber}</h1>${content}</div>`;
 
   document.getElementById("coursePage").style.display = "block";
   document.getElementById("personalPage").style.display = "none";
@@ -263,7 +314,7 @@ function showUpdateSoonMessage() {
         <div class="update-soon-content">
             <h2>Course Update Soon</h2>
             <p>This course will be updated soon. Please check back later.</p>
-            <p>Expected on <b>08/20/2024</b> or maybe earlier</p>
+            <p>Expected on <b>08/20/2024</p> or maybe earlier</p>
             <button onclick="closeUpdateSoonMessage()">Close</button>
         </div>
     `;
@@ -410,7 +461,8 @@ function handleLogin() {
       address: "50 bedford, west croydon 5008",
       phoneNumber: "0421582472",
       email: "huynhtruongkhanhvy1007@gmail.com",
-      course: "Fullstack, AI and Data Scientist, Software Architect, and GAME DEV",
+      course:
+        "Fullstack, AI and Data Scientist, Software Architect, and GAME DEV",
     };
 
     localStorage.setItem("user", JSON.stringify(user));
